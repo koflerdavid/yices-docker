@@ -54,3 +54,5 @@ COPY --from=builder /src/libpoly/build/src/libpoly.so* /lib/
 WORKDIR "/"
 
 ENTRYPOINT ["/bin/yices"]
+
+LABEL version="2.5.3"
